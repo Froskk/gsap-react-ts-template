@@ -1,6 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import "typeface-merriweather-sans";
-import "./globalFonts.css";
 
 export const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
@@ -28,8 +26,8 @@ export const GlobalStyles = createGlobalStyle`
   img {
     height: auto;
     max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 `;
